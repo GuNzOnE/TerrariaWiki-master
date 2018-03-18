@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zevzikovas.aivaras.terraria.activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/terraria_logo" />
+
+    <Button
+        android:id="@+id/TheGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GameInfo"
+        android:text="The Game" />
+
+    <Button
+        android:id="@+id/Items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ItemsList"
+        android:text="Items" />
+
+    <Button
+        android:id="@+id/Mechanics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="MechanicsList"
+        android:text="Mechanics" />
+
+    <Button
+        android:id="@+id/Biomes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="BiomesList"
+        android:text="Biomes" />
+
+    <Button
+        android:id="@+id/Characters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="CharactersList"
+        android:text="Characters" />
+</LinearLayout>
